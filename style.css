@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse
+}
+
+td {
+    border: 1px solid; 
+    padding: 1.2%;
+}
+
+address {
+    font-style: normal;
+}
+
+.title {
+    background-color: #f1f1f1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noTopBottomBorder {
+    border-width: 0 1px;
+}
+
+.noBottomBorder {
+    border-width: 1px 1px 0;
+}
+
+.noTopBorder {
+    border-top: 0;
+}
+
+#addressInfo {
+    line-height: 1.8em;
+    vertical-align: top;
+}
